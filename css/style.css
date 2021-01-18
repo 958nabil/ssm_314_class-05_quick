@@ -11,8 +11,12 @@ section{
 /* Header_Section_CSS */
 
 .header_section {
-	border-bottom: 1px solid #ddd;
 	padding: 10px 0;
+}
+
+.navbar {
+	background: rgb(238, 238, 238);
+	border-bottom: 1px solid #ddd;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -31,7 +35,9 @@ section{
 
 /* Banner_Section_CSS */
 
-.banner_section{}
+.banner_section {
+	margin-top: 50px;
+}
 
 .banner_content{}
 .banner_content h1 {
